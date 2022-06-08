@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private static final String SENSOR_MISSING_GYROSCOPE = "\n" + "El vostre dispositiu no té cap sensor de gyroscope, que és necessari per utilitzar aquesta aplicació";
     private static final int LIGHT_MODE = 1;
     private static final int DARK_MODE = 2;
-    private static final float BREAKING_ANGULAR_ACC = 0.05f;  
+    private static final float BREAKING_ANGULAR_ACC = 0.05f;
     private static final int ROTATION_ANIMATION_TIME_FACTOR = 20;
     private static final float MIN_ANGULAR_VELOCITY_TO_TRIGGER_SPIN = 2;
     private View containerView;
